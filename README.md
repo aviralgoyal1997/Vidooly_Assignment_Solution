@@ -14,7 +14,7 @@ ad_org_test.csv : data used for testing.
   3.Exploratory Analysis : Insights gaied from visualiation .<br>
   4.Models : Random Forest with parameters tuning and xgboost.<br>
   <h3>Feature's Importance : </h3><br>
-<img src="https://drive.google.com/open?id=1OIhYSPcTtGGQzfYpDB5HhKQFno4Fz04h" alt="My cool logo"/>  
+<img src="https://github.com/aviralgoyal1997/Vidooly_Assignment_Solution/blob/master/importance.png" alt="Features Importance"/>  
   
   
   <h2>Observations</h2><br>
