@@ -8,16 +8,25 @@ result_xgb.csv : contains predictions made on ad_org_test data using random fore
 ad_org_train.csv : data used for training.
 ad_org_test.csv : data used for testing.
 
-<h2>Steps performed in ad_org_solution.ipynb</h2> :<br>
+<h2>Steps performed in ad_org_solution.ipynb :</h2><br>
   1.Data Cleaning : Removing missing values and faulty rows.<br>
   2.Data transformation : conversion of features publshed into days_passed till now and duration to duraion_seconds.<br>
   3.Exploratory Analysis : Insights gaied from visualiation .<br>
   4.Models : Random Forest with parameters tuning and xgboost.<br>
   <h3>Feature's Importance : </h3><br>
-<img src="https://github.com/aviralgoyal1997/Vidooly_Assignment_Solution/blob/master/importance.png" alt="Features Importance"/>  
+<img src="https://github.com/aviralgoyal1997/Vidooly_Assignment_Solution/blob/master/images/importance.png" alt="Features Importance"/>  
+
+<h3>Exploratry Analysis</h3>
+<img src="https://github.com/aviralgoyal1997/Vidooly_Assignment_Solution/blob/master/images/1.png" alt=""/> 
+<img src="https://github.com/aviralgoyal1997/Vidooly_Assignment_Solution/blob/master/images/2.png" alt=""/> 
+<img src="https://github.com/aviralgoyal1997/Vidooly_Assignment_Solution/blob/master/images/3.png" alt=""/> 
+<img src="https://github.com/aviralgoyal1997/Vidooly_Assignment_Solution/blob/master/images/4.png" alt=""/> 
+<img src="https://github.com/aviralgoyal1997/Vidooly_Assignment_Solution/blob/master/images/5.png" alt=""/> 
+<img src="https://github.com/aviralgoyal1997/Vidooly_Assignment_Solution/blob/master/images/6.png" alt=""/> 
+
   
   
-  <h2>Observations</h2><br>
+ <h2>Observationsfrom above graphs></h2><br>
 1.What we conclude is C(maybe) and H(definately) category videos are ones with less ads compared to others.<br>
 2.Categories with high standard deviation in views contains some of most viewed videos like category G.<br>
 3.Category G contains videos with less no of ads as well as high no of ads.<br>
